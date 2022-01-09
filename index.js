@@ -46,7 +46,7 @@ function drawTree(startX, startY, length, angle, branchWidth, color1, color2) {
 function createRandomTree() {
   ctx.clearRect(0, 0, canvas.width, canvas.height)
   let x = canvas.width / 2
-  const length = 170
+  const length = 140
   let angle = 0
   let branchWidth = Math.random() * (170 - 30) + 30
   drawTree(
